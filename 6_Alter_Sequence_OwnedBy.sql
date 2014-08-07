@@ -1,0 +1,105 @@
+--6_Alter_Sequence_OwnedBy
+
+
+
+ALTER SEQUENCE archived_dataset_file_archived_dataset_file_id_seq OWNED BY archived_dataset_file.archived_dataset_file_id;
+ALTER SEQUENCE audit_event_audit_id_seq OWNED BY audit_event.audit_id;
+
+
+ALTER SEQUENCE audit_log_event_audit_id_seq OWNED BY audit_log_event.audit_id;
+ALTER SEQUENCE audit_log_event_type_audit_log_event_type_id_seq OWNED BY audit_log_event_type.audit_log_event_type_id;
+ALTER SEQUENCE audit_user_login_id_seq OWNED BY audit_user_login.id;
+ALTER SEQUENCE authorities_id_seq OWNED BY authorities.id;
+ALTER SEQUENCE completion_status_completion_status_id_seq OWNED BY completion_status.completion_status_id;
+ALTER SEQUENCE configuration_id_seq OWNED BY configuration.id;
+ALTER SEQUENCE crf_crf_id_seq OWNED BY crf.crf_id;
+ALTER SEQUENCE crf_version_crf_version_id_seq OWNED BY crf_version.crf_version_id;
+
+
+ALTER SEQUENCE dataset_dataset_id_seq OWNED BY dataset.dataset_id;
+
+
+ALTER SEQUENCE dataset_item_status_dataset_item_status_id_seq OWNED BY dataset_item_status.dataset_item_status_id;
+
+ALTER SEQUENCE dc_computed_event_dc_summary_event_id_seq OWNED BY dc_computed_event.dc_summary_event_id;
+ALTER SEQUENCE dc_event_dc_event_id_seq OWNED BY dc_event.dc_event_id;
+ALTER SEQUENCE dc_primitive_dc_primitive_id_seq OWNED BY dc_primitive.dc_primitive_id;
+ALTER SEQUENCE dc_section_event_dc_event_id_seq OWNED BY dc_section_event.dc_event_id;
+ALTER SEQUENCE dc_send_email_event_dc_event_id_seq OWNED BY dc_send_email_event.dc_event_id;
+ALTER SEQUENCE dc_substitution_event_dc_event_id_seq OWNED BY dc_substitution_event.dc_event_id;
+
+ALTER SEQUENCE decision_condition_decision_condition_id_seq OWNED BY decision_condition.decision_condition_id;
+ALTER SEQUENCE discrepancy_note_discrepancy_note_id_seq OWNED BY discrepancy_note.discrepancy_note_id;
+ALTER SEQUENCE discrepancy_note_type_discrepancy_note_type_id_seq OWNED BY discrepancy_note_type.discrepancy_note_type_id;
+
+
+
+
+
+ALTER SEQUENCE dyn_item_form_metadata_id_seq OWNED BY dyn_item_form_metadata.id;
+ALTER SEQUENCE dyn_item_group_metadata_id_seq OWNED BY dyn_item_group_metadata.id;
+ALTER SEQUENCE event_crf_event_crf_id_seq OWNED BY event_crf.event_crf_id;
+ALTER SEQUENCE event_definition_crf_event_definition_crf_id_seq OWNED BY event_definition_crf.event_definition_crf_id;
+ALTER SEQUENCE export_format_export_format_id_seq OWNED BY export_format.export_format_id;
+ALTER SEQUENCE filter_filter_id_seq OWNED BY filter.filter_id;
+
+ALTER SEQUENCE group_class_types_group_class_type_id_seq OWNED BY group_class_types.group_class_type_id;
+ALTER SEQUENCE item_item_id_seq OWNED BY item.item_id;
+ALTER SEQUENCE item_data_item_data_id_seq OWNED BY item_data.item_data_id;
+ALTER SEQUENCE item_data_type_item_data_type_id_seq OWNED BY item_data_type.item_data_type_id;
+ALTER SEQUENCE item_form_metadata_item_form_metadata_id_seq OWNED BY item_form_metadata.item_form_metadata_id;
+ALTER SEQUENCE item_group_item_group_id_seq OWNED BY item_group.item_group_id;
+ALTER SEQUENCE item_group_metadata_item_group_metadata_id_seq OWNED BY item_group_metadata.item_group_metadata_id;
+ALTER SEQUENCE item_reference_type_item_reference_type_id_seq OWNED BY item_reference_type.item_reference_type_id;
+ALTER SEQUENCE measurement_unit_id_seq OWNED BY measurement_unit.id;
+ALTER SEQUENCE null_value_type_null_value_type_id_seq OWNED BY null_value_type.null_value_type_id;
+
+
+
+
+
+
+
+
+
+
+
+
+ALTER SEQUENCE openclinica_version_id_seq OWNED BY openclinica_version.id;
+ALTER SEQUENCE privilege_priv_id_seq OWNED BY privilege.priv_id;
+ALTER SEQUENCE resolution_status_resolution_status_id_seq OWNED BY resolution_status.resolution_status_id;
+ALTER SEQUENCE response_set_response_set_id_seq OWNED BY response_set.response_set_id;
+ALTER SEQUENCE response_type_response_type_id_seq OWNED BY response_type.response_type_id;
+
+ALTER SEQUENCE rule_id_seq OWNED BY rule.id;
+ALTER SEQUENCE rule_action_id_seq OWNED BY rule_action.id;
+ALTER SEQUENCE rule_action_property_id_seq OWNED BY rule_action_property.id;
+ALTER SEQUENCE rule_action_run_id_seq OWNED BY rule_action_run.id;
+ALTER SEQUENCE rule_action_run_log_id_seq OWNED BY rule_action_run_log.id;
+ALTER SEQUENCE rule_expression_id_seq OWNED BY rule_expression.id;
+ALTER SEQUENCE rule_set_id_seq OWNED BY rule_set.id;
+ALTER SEQUENCE rule_set_audit_id_seq OWNED BY rule_set_audit.id;
+ALTER SEQUENCE rule_set_rule_id_seq OWNED BY rule_set_rule.id;
+ALTER SEQUENCE rule_set_rule_audit_id_seq OWNED BY rule_set_rule_audit.id;
+ALTER SEQUENCE scd_item_metadata_id_seq OWNED BY scd_item_metadata.id;
+ALTER SEQUENCE section_section_id_seq OWNED BY section.section_id;
+ALTER SEQUENCE status_status_id_seq OWNED BY status.status_id;
+ALTER SEQUENCE study_study_id_seq OWNED BY study.study_id;
+ALTER SEQUENCE study_event_study_event_id_seq OWNED BY study_event.study_event_id;
+ALTER SEQUENCE study_event_definition_study_event_definition_id_seq OWNED BY study_event_definition.study_event_definition_id;
+ALTER SEQUENCE study_group_study_group_id_seq OWNED BY study_group.study_group_id;
+ALTER SEQUENCE study_group_class_study_group_class_id_seq OWNED BY study_group_class.study_group_class_id;
+ALTER SEQUENCE study_module_status_id_seq OWNED BY study_module_status.id;
+ALTER SEQUENCE study_parameter_study_parameter_id_seq OWNED BY study_parameter.study_parameter_id;
+ALTER SEQUENCE study_parameter_value_study_parameter_value_id_seq OWNED BY study_parameter_value.study_parameter_value_id;
+ALTER SEQUENCE study_subject_study_subject_id_seq OWNED BY study_subject.study_subject_id;
+ALTER SEQUENCE study_type_study_type_id_seq OWNED BY study_type.study_type_id;
+
+ALTER SEQUENCE subject_subject_id_seq OWNED BY subject.subject_id;
+ALTER SEQUENCE subject_event_status_subject_event_status_id_seq OWNED BY subject_event_status.subject_event_status_id;
+ALTER SEQUENCE subject_group_map_subject_group_map_id_seq OWNED BY subject_group_map.subject_group_map_id;
+ALTER SEQUENCE usage_statistics_data_id_seq OWNED BY usage_statistics_data.id;
+ALTER SEQUENCE user_account_user_id_seq OWNED BY user_account.user_id;
+ALTER SEQUENCE user_role_role_id_seq OWNED BY user_role.role_id;
+ALTER SEQUENCE user_type_user_type_id_seq OWNED BY user_type.user_type_id;
+
